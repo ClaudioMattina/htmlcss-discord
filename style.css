@@ -16,6 +16,7 @@
     float: left;
 }
 
+
 header{
     width: 100%;
     height: 80px;
@@ -70,11 +71,19 @@ a:hover{
     text-decoration: underline;
 }
 
+h1{
+    font-size: 3.5em;
+}
+
+p{
+    font-size: 1.5em;
+}
+
 /* jumbotron */
 
 .jumbotron{
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-image: url("img/jumbo.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -139,10 +148,7 @@ main{
 .box-paragrafo{
     width: 30%;
     position: absolute;
-
 }
-
-
 
 .position-left{
     left: 0px;
@@ -152,15 +158,32 @@ main{
     right: 0px;
 }
 
-.box-paragrafo h1{
-    font-size: 3.5em;
-}
-
-.box-paragrafo p{
-    font-size: 1.5em;
-}
-
 .bg-grey{
     background-color: lightgray;
     padding-top: 70px;
+    padding-bottom: 30px;
 }
+
+/* section */
+section{
+    width: 80%;
+    text-align: center;
+    margin: 0  auto;
+}
+
+.section-text{
+    margin: 50px;
+}
+
+.section-text h1{
+    margin-bottom: 20px;
+}
+
+.img-screen{
+    width: 1400px;
+}
+
+h2{
+    font-size: 2em;
+}
+
