@@ -56,8 +56,8 @@ li{
 button{
     background-color: white;
     border-radius: 30px;
-    padding: 5px 10px;
-    font-size: 1.3em;
+    padding: 10px 20px;
+    font-size: 1em;
     border: 0px;
 }
 
@@ -74,9 +74,26 @@ a:hover{
 
 .jumbotron{
     width: 100%;
-    height: 700px;
+    height: 600px;
     background-image: url("img/jumbo.png");
     background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
 }
 
+.main-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#black-button{
+    background-color: black;
+    color: white;
+}
+
+.arrow-down{
+    padding-right: 5px;
+}
