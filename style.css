@@ -82,7 +82,7 @@ a:hover{
     text-align: center;
 }
 
-.main-title{
+.main-box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -96,4 +96,18 @@ a:hover{
 
 .arrow-down{
     padding-right: 5px;
+}
+
+.main-box h1,p,button{
+    margin-bottom: 30px;
+}
+
+.main-box h1,p{
+    color: white;
+    font-size: 1.4em;
+}
+
+.main-box h1{
+    font-size: 40px;
+    
 }
