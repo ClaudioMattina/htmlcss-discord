@@ -218,4 +218,8 @@ footer{
     background-color: violet;
 }
 
-
+.footer-container li{
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
